@@ -9,6 +9,8 @@ and more, all in one fast, native app. Built with **Tauri (Rust)** + **Vue 3**.
 
 Everything runs locally: no data ever leaves your machine.
 
+<img width="1312" height="912" alt="Screenshot 2026-07-07 at 14 09 09" src="https://github.com/user-attachments/assets/b6ece190-a81c-4763-a8a3-25ff43166916" />
+
 ## Why Toolify
 
 Most "paste your JSON/text here" web tools choke on large input because they do
