@@ -1,0 +1,47 @@
+{
+  "name": "toolify",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zack-the-worker/Toolify"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "dependencies": {
+    "@hugeicons/core-free-icons": "^4.2.2",
+    "@hugeicons/vue": "^1.0.7",
+    "@tauri-apps/api": "^2.11.1",
+    "@tauri-apps/plugin-shell": "^2.3.5",
+    "js-beautify": "^2.0.3",
+    "jsqr": "^1.4.0",
+    "marked": "^18.0.5",
+    "pinia": "^3.0.4",
+    "qrcode": "^1.5.4",
+    "sql-formatter": "^15.8.2",
+    "terser": "^5.48.0",
+    "vue": "^3.5.39"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4",
+    "@types/js-beautify": "^1.14.3",
+    "@types/node": "^24.13.2",
+    "@types/qrcode": "^1.5.6",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1",
+    "vitest": "^4.1.10",
+    "vue-tsc": "^3.3.5"
+  }
+}

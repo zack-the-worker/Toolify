@@ -1,0 +1,10 @@
+# Local dev-machine artifacts (not needed by other contributors)
+.toolchain/
+.envrc.local
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Claude Code session-local config
+.claude/
